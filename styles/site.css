@@ -45,6 +45,10 @@
   font-weight: 600;
 }
 
+.medium {
+  font-weight: 500;
+}
+
 .disply-flex {
   display: flex;
 }
@@ -81,4 +85,18 @@ header > * {
   padding: 20px;
 }
 
+.banner {
+  display: none;
+}
+
 /* #endregion */
+
+/* #region media query */
+@media screen and (max-width: 576px) {
+  .navbar,
+  .navbar-links {
+    flex-direction: column;
+  }
+}
+
+/* #endregion media query */
